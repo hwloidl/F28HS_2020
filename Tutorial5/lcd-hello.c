@@ -2,7 +2,6 @@
    Hello world code for an LCD display.
 
  * Compile: 
- gcc -c -o lcdBinary.o lcdBinary.c
  gcc -c -o lcd-hello.o lcd-hello.c
  gcc -o lcd-hello lcd-hello.o lcdBinary.o
  * Run:     
