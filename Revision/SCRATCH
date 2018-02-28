@@ -1,0 +1,40 @@
+Spec: The goal of this exercise is to implement the 'strcpy' function, as provided by libc, in ARM Assembler.
+
+Input: 2 pointers to the source and the destination string
+Result: the source string should be copied to the destination string
+
+Before:
+
+  srcstr
+    |
+    |
+    v
+  ------------------------------------
+  | H | e | l | l | o | \0 |
+  ------------------------------------
+
+  ------------------------------------
+  | T | e | x | t | \0 |
+  ------------------------------------
+    ^
+    |
+    |
+  dststr
+
+After:
+
+  srcstr
+    |
+    |
+    v
+  ------------------------------------
+  | H | e | l | l | o | \0 |
+  ------------------------------------
+
+  ------------------------------------
+  | H | e | l | l | o | \0 |
+  ------------------------------------
+    ^
+    |
+    |
+  dststr
