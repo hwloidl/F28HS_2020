@@ -1,4 +1,4 @@
-# F28HS_2018
+# F28HS_2020
 Sample sources for the course "F28HS: Hardware-Software Interface"
 
 This repository contains sample sources of doing systems programming on a Raspberry Pi 2
